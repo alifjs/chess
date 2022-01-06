@@ -1,0 +1,69 @@
+#row1{
+    float:left;
+}
+#row2{
+    float:left;
+    clear:left;
+}
+#row3{
+    float:left;
+    clear:left;
+}
+#row4{
+    float:left;
+    clear:left;
+}
+#row5{
+    float:left;
+    clear:left;
+}
+#row6{
+    float:left;
+    clear:left;
+}
+#row7{
+    float:left;
+    clear:left;
+}
+#row8{
+    float:left;
+    clear:left;
+}
+/*--------------------------end of rows-----------------------------------*/
+
+#board{
+    position:absolute;
+    margin-left:300px;
+    margin-top:20px;
+    border-style:solid;
+    border-color:black;
+    border-width:thick;
+}
+.white_box{
+    height:55px;
+    width:55px;
+    float:left;
+    background-color:rgb(247,247,215);
+}
+.green_box{
+    height:55px;
+    width:55px;
+    float:left;
+    background-color:rgb(125,169,86);
+}
+/*----------------------------------*/
+
+.pawn,.rook,.horse,.bishop,.king,.queen{
+    margin-left:2.5px;
+    margin-top:2.5px;
+}
+/*-----------------------------------*/
+#white_pawn_promotion{
+    display:none;
+}
+#black_pawn_promotion{
+    display:none;
+    position:absolute;
+    bottom:30px;
+}
+
